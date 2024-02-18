@@ -1,6 +1,7 @@
 import axios from "axios";
 import * as SecureStore from "expo-secure-store";
-export const BASE_URL = "http://192.168.56.1:1337/";
+// export const BASE_URL = "http://localhost:1337/";
+export const BASE_URL = "https://to-do-app-da51.onrender.com";
 
 const TIME_OUT = 30000;
 export const TO_DO_TOKEN_NAME = "to_do_user_token";
