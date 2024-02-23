@@ -3,7 +3,7 @@ import mongoose, { mongo } from "mongoose";
 const connectToDatabase = async () => {
   try {
     const connection = await mongoose.connect(
-      "mongodb+srv://meriemaoudia2:vnZe8HPXUiqXvevy@cluster0.sawub6j.mongodb.net/to-do-app?retryWrites=true&w=majority"
+      "mongodb+srv://<username>:<password>@cluster0.sawub6j.mongodb.net/to-do-app?retryWrites=true&w=majority"
     );
     if (connection) {
       console.log("MongoDB connected successfully");
